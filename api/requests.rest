@@ -1,0 +1,20 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "Sleep tight"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/6500a06661d8ac34c91280a8
+
+###
+
+PUT http://localhost:3001/todo/complete/6500a07561d8ac34c91280aa
+
+
